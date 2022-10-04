@@ -1,0 +1,17 @@
+{
+  "name": "tourism",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tourism.js",
+  "scripts": {
+    "test": "jest spec/*.js -i"
+  },
+  "dependencies": {
+    "jest": "^28.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
