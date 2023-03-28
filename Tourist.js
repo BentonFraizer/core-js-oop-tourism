@@ -1,6 +1,6 @@
 class Tourist {
   constructor() {
-
+    
   }
 
   buy(countryName, agency) {
