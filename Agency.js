@@ -14,6 +14,9 @@ class Agency {
 
   sell(countryName) {
     let indexOfDeletingTour;
+    if (this.tours.every((tour) => tour.country !== countryName)) {
+      return undefined;
+    }
     const tourForSell = this.tours.filter((tour) => tour.country === countryName);
     this.money += tourForSell[0].price;
     this.tours.forEach((tour, index) => {
